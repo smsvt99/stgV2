@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+    background-color: #f8f9fa
+}
+.masthead{
+    padding: 0;
+    margin: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("./images/masthead1.jpg")
+}
+#title{
+    padding-top: 100px;
+    margin-top: 0;
+    font-size: 55px;
+}
+.searchBar{
+    height: 31px;
+    width: 250px;
+    border-radius: 3px;
+    border-color: white;
+    color: grey;
+    font-size: 20px;
+}
+.searchButton{
+    height: 39px;
+    width: 150px;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+}
+#spacer{
+    height: 200px;
+}
+h1{
+    margin: 75px;
+}
+.content{
+    margin-left: 125px;
+    margin-right: 125px;
+    /* margin-right: 125px; */
+    margin-top: 100px;
+    color:#212529;
+}
+.contentWider{
+    margin-left: 80px;
+    margin-right: 80px;
+    /* margin-right: 125px; */
+    margin-top: 100px;
+    color:#212529
+}
+.sectionTitle{
+    font-size: 30px;
+}
+p{
+    font-size: 22px;
+}
+li{
+    font-size: 22px;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+.image{
+    float: right;
+    border-radius: 50%;
+    height: 325px;
+    width: auto;
+    /* margin-right: 125px; */
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.center{
+    justify-content: space-between;
+    align-content: center;
+}
+#leftSide{
+    width: 90%;
+}
+.card{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 33%;
+    text-align: center;
+}
+i, a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 30px;
+}
+.border{
+    border: 5px solid rgb(66,139,202);
+    border-radius: 15px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#computer{
+    margin-top: 200px;
+}
+#lab{
+    margin-left: 100px;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+td{
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+tr{
+    border: none;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+#bottom{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 40px;
+}
