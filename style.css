@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Lato';
-    background-color: #f8f9fa
+    background-color: #f8f9fa;
+    overflow-y: hidden;
 }
 .masthead{
     padding: 0;
@@ -57,6 +58,7 @@ h1{
 }
 p{
     font-size: 22px;
+    line-height:
 }
 li{
     font-size: 22px;
