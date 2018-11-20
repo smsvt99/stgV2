@@ -1,0 +1,77 @@
+/* 
+light grey: 
+medium grey:  #fff
+dark grey: 
+text: #333
+f9f9f9
+*/
+
+
+body{
+    background: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+#content{
+    max-height: 200%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #fff;
+    box-shadow: 0 0px 3px rgba(0,0,0,0.3);
+}
+/* #content h1{
+    font-weight: bolder;
+    font-size: 40px;
+} */
+#titles{
+    background: #f9f9f9;
+    padding: 3%;
+    border-bottom: 1px solid lightgrey;
+}
+/* #titles h1{
+    font-weight: bolder;
+    font-size: 30px;
+} */
+
+#description{
+    width: 70%;
+    margin: 3%;
+    font-size: 19px;
+    max-height: inherit;
+}
+#buyNow{
+    border: 1px solid #333;
+    border-radius: 2%;
+    width: 45%;
+    max-height: 45%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    left: 30px;
+    z-index: 1;
+    background: #f9f9f9;
+    float: right;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    width: 90%;
+    height: 45px;
+    color: white;
+    font-size: 20px;
+    background-color: #08c;
+    border-color: #08c;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0077b3;
+    border-color: #006699;
+}
+h1 strong{
+    font-size: 40px;
+}
