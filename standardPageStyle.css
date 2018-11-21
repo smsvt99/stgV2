@@ -11,9 +11,10 @@ body{
     background: #f1f1f1;
     font-family: 'Source Sans Pro', sans-serif;
     color: #333;
+    height: 100%;
 }
 #content{
-    max-height: 200%;
+    max-height: 250%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 50px;
@@ -21,19 +22,12 @@ body{
     background: #fff;
     box-shadow: 0 0px 3px rgba(0,0,0,0.3);
 }
-/* #content h1{
-    font-weight: bolder;
-    font-size: 40px;
-} */
+
 #titles{
     background: #f9f9f9;
     padding: 3%;
     border-bottom: 1px solid lightgrey;
 }
-/* #titles h1{
-    font-weight: bolder;
-    font-size: 30px;
-} */
 
 #description{
     width: 70%;
@@ -45,11 +39,11 @@ body{
     border: 1px solid #333;
     border-radius: 2%;
     width: 45%;
-    max-height: 45%;
+    height: 300px;
     padding: 10px;
     text-align: center;
     position: relative;
-    top: -30px;
+    top: -50px;
     left: 30px;
     z-index: 1;
     background: #f9f9f9;
@@ -58,7 +52,13 @@ body{
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
 }
+.underline{
+    border-bottom: 1px solid lightgrey;
+}
+
 button{
     width: 90%;
     height: 45px;
@@ -74,4 +74,32 @@ button:hover{
 }
 h1 strong{
     font-size: 40px;
+}
+
+hr{
+    width: 90%;
+    color: lightgrey;
+}
+#space{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+#generalInfo{
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0px 3px rgba(0,0,0,0.3);
+    text-align: center;
+}
+#generalInfo h1{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+span{
+    font-size: 20px;
 }
