@@ -1,0 +1,148 @@
+/* styles with the prefix 'template_' are used accross multiple pages*/
+.template_body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 120px;
+}
+.template_bold{
+    font-weight: 600;
+}
+.template_container_row{
+    display: flex;
+    flex-direction: row;
+}
+.template_content{
+    background-color:#fcfcfc;
+    border: 2px solid #bee5fb;
+    padding: 12px 40px;
+    padding-right: 20px;
+}
+.template_footer{
+    background-color:#f5f0f0;
+    border: 2px solid #d9f0fd;
+    color:#414141;
+    font-size: 21px;
+    padding: 20px 40px;
+}
+.template_footer div{
+    padding-left: 40px;
+}
+.template_header{
+    background-color:#fcfcfc;
+    border: 2px solid #bee5fb;
+    font-size: 50px;
+    padding: 20px 40px;
+}
+.template_img{
+    position: relative;
+    top: 6px;
+}
+.template_name{
+    color:#414141;
+    font-size: 30px;
+}
+.template_number{
+    color: #292929;
+    display: inline;
+}
+
+.template_red_bar{
+    background-color: #f2ecec;
+    border: 2px solid #d9f0fd;
+    color:#414141;
+    font-size: 21px;
+    padding: 12px 40px;
+
+}
+
+
+/* styles with the prefix 'standard_' are unique to standard.html */
+
+#standard_blurb{
+    margin: 10px;
+}
+.standard_buy_now{
+    color:#414141;
+    color: inherit;
+    font-size: inherit;
+    margin: 5px;
+    text-align: center;
+}
+.standard_container_column{
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+}
+#standard_content_left{
+    width: 70%;
+}
+#standard_content_right{
+    align-content: flex-end;
+    width: 25%;
+}
+#standard_gen_info{
+    font-size: 20px;
+    height: 250px;
+    overflow: auto;
+}
+.standard_info{
+    font-size: 16px;
+    margin: 10px;
+}
+.standard_inner_box{
+    background-color:#f9f9f9;
+    border: 2px solid #bee5fb;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+#standard_preview{
+    height: 250px;
+    margin-top: auto;
+}
+#standard_purchase_box{
+    font-size: 22px;
+    margin-top: 20%;
+}
+#standard_purchase_box:hover{
+    background-color: #bee5fb;
+    font-size: 23px;
+}
+#standard_purchase_link{
+    color:#414141;
+    text-decoration: none;
+}
+#standard_vertical_bar{
+    background-color: #eeeeee;
+    margin: 3% 20px;
+    width: 2px;
+}
+/* styles with the prefix 'abstract_' are unique to fedRegAbstract.html */
+.abstract_heading{
+    color:#414141;
+    font-size: 21px;
+    margin-top: 40px;
+}
+.abstract_heading:nth-child(1){
+    margin-top: 0;
+}
+.abstract_info{
+    color:#414141;
+    font-size: 17px;
+    margin-top: 5px;
+}
+#abstract_left_side{
+    padding: 12px 40px;
+    padding-right: 20px;
+    width: 50%;
+}
+#abstract_right_side{
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 50%;
+}
+.abstract_sub_subtitle{
+    color:#414141;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
