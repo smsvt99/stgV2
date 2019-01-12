@@ -56,7 +56,13 @@
 
 
 /* styles with the prefix 'standard_' are unique to standard.html */
+/* ~~~~ */
+#standard_big_preview{
+    height: 500px;
+    overflow: auto;
+}
 
+/* ~~~~ */
 #standard_blurb{
     margin: 10px;
 }
