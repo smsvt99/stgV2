@@ -36,6 +36,13 @@
     position: relative;
     top: 6px;
 }
+.template_inner_box{
+    background-color:#f9f9f9;
+    border: 2px solid #bee5fb;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+}
 .template_name{
     color:#414141;
     font-size: 30px;
@@ -51,18 +58,20 @@
     color:#414141;
     font-size: 21px;
     padding: 12px 40px;
-
 }
 
 
 /* styles with the prefix 'standard_' are unique to standard.html */
+
 /* ~~~~ */
+
 #standard_big_preview{
     height: 500px;
     overflow: auto;
 }
 
 /* ~~~~ */
+
 #standard_blurb{
     margin: 10px;
 }
@@ -93,13 +102,6 @@
 .standard_info{
     font-size: 16px;
     margin: 10px;
-}
-.standard_inner_box{
-    background-color:#f9f9f9;
-    border: 2px solid #bee5fb;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px 20px;
 }
 #standard_preview{
     height: 250px;
@@ -152,3 +154,42 @@
     margin-top: 6px;
 }
 
+/* styles with the prefix 'landing_' are unique to ahriLanding.html */
+
+.landing_header{
+    background-color: rgba(252, 252, 252, .93);
+}
+
+#landing_background{
+    background: 
+    /* linear-gradient( */
+      /* rgba(255, 255, 255, 0.2), 
+      rgba(255, 255, 255, 0.2)
+    ), */
+    url("ahriLogo.jpg");
+    background-size: 50%;
+    background-position: center;
+    background-position-y: 90%;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+      }
+
+#landing_description{
+      padding: 20px 30px;
+      font-size: 20px;
+} 
+.landing_content{
+    background-color:rgba(252,252,252, .93);
+}
+#landing_flavor{
+    width: 250px;
+    margin: 20px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.landing_hr{
+    width: 50%;
+}
+.landing_blurb{
+    margin: 15px;
+}
