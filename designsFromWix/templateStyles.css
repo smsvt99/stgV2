@@ -72,6 +72,14 @@
 
 /* ~~~~ */
 
+.standard_big_preview_no_block{
+    /* compensate left and right margins for lack of 'template_conent'. i.e., adds margins of 'template_inner_block' and 'template_content' */
+    margin-left: 60px !important;
+    margin-right: 60px !important;
+}
+
+/* ~~~~ */
+
 #standard_blurb{
     margin: 10px;
 }
