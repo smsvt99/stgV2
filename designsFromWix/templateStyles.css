@@ -201,3 +201,27 @@
 .landing_blurb{
     margin: 15px;
 }
+
+/* ~~~~ */
+
+.parent_child_link{
+    color: inherit;
+    font-size: 19px;
+    display: block;
+    margin-top: 40px;
+    color: #414141;
+}
+.parent_child_link:nth-child(1){
+    margin-top: 10px;
+}
+.parent_spacer{
+    width: 15%;
+    display: inline-block;
+    line-height: .5;
+    color: #eee;
+}
+.parent_child_description{
+    display: inline;
+    font-size: 18px;
+    color: #414141
+}
