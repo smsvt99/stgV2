@@ -1,7 +1,9 @@
 /* styles with the prefix 'template_' are used accross multiple pages*/
 .template_body{
-    font-family: 'Nunito Sans', sans-serif;
-    margin: 120px;
+    font-family: 'Nunito', sans-serif;
+    margin: 60px;
+    margin-top: 30px;
+
 }
 .template_bold{
     font-weight: 600;
