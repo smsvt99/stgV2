@@ -106,7 +106,7 @@
 }
 #standard_gen_info{
     font-size: 20px;
-    height: 250px;
+    /* height: 250px; */
     /* overflow: auto; */
 }
 .standard_info{
