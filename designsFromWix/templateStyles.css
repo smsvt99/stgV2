@@ -203,6 +203,13 @@
 .landing_blurb{
     margin: 15px;
 }
+.landing_center_items{
+    align-items: center;
+}
+.landing_center_items i{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 /* ~~~~ */
 
