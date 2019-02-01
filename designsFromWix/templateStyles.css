@@ -147,7 +147,7 @@
     background-color: white;
     font-size: 14px;
 }
-.standard_info table th, td {
+.standard_info table, .standard_info th, .standard_info td {
     color: #292929;
     border: 1px solid #292929;
     padding: 5px;
