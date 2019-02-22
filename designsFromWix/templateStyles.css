@@ -8,6 +8,9 @@
 .template_bold{
     font-weight: 600;
 }
+.template_center{
+    text-align: center;
+}
 .template_container_row{
     display: flex;
     flex-direction: row;
@@ -177,6 +180,9 @@
     width: 2px;
 }
 /* styles with the prefix 'abstract_' are unique to fedRegAbstract.html */
+.abstract_a{
+    color: #414141;
+}
 .abstract_heading{
     color:#414141;
     font-size: 21px;
@@ -195,15 +201,36 @@
     padding-right: 20px;
     width: 50%;
 }
-#abstract_right_side{
-    margin-bottom: auto;
-    margin-top: auto;
+.abstract_right_side{
+    padding: 12px 40px;
+    padding-left: 20px;
     width: 50%;
+}
+.abstract_subtitle{
+    color:#414141;
+    font-size: 28px;
 }
 .abstract_sub_subtitle{
     color:#414141;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 6px;
+}
+.abstract_hr{
+    width: 70%;
+}
+#abstract_vertical_bar{
+    background-color: #eeeeee;
+    margin: 3% 20px;
+    width: 2px;
+}
+.abstract_inner_box{
+    background-color:#f9f9f9;
+    border: 2px solid #bee5fb;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    height: 600px;
+    overflow-y: auto;
 }
 
 /* styles with the prefix 'landing_' are unique to ahriLanding.html */
