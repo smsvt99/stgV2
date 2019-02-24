@@ -101,11 +101,11 @@
     flex-direction: column;
 }
 #standard_content_left{
-    width: 70%;
+    width: 35%;
 }
 #standard_content_right{
     align-content: flex-end;
-    width: 25%;
+    width: 50%;
 }
 #standard_gen_info{
     font-size: 20px;
@@ -141,7 +141,7 @@
     margin-top: 10px;
     color: #292929;
 }
-.standard_info table th{
+.standard_info table th, .standard_info table tr th{
     font-size: 17px;
     font-weight: 400;
     background-color:#f2ecec
@@ -164,7 +164,7 @@
 }
 #standard_purchase_box{
     font-size: 22px;
-    margin-top: 20%;
+    /* margin-top: 20%; */
 }
 #standard_purchase_box:hover{
     background-color: #bee5fb;
@@ -178,6 +178,11 @@
     background-color: #eeeeee;
     margin: 3% 20px;
     width: 2px;
+}
+.standard_container_row{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
 }
 /* styles with the prefix 'abstract_' are unique to fedRegAbstract.html */
 .abstract_a{
