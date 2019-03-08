@@ -14,7 +14,7 @@
 .template_container_row{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 .template_content{
     background-color:#fcfcfc;
@@ -95,7 +95,7 @@
     color: inherit;
     font-size: inherit;
     margin: 5px;
-    text-align: center;
+    text-align: center; 
 }
 .standard_container_column{
     align-items: stretch;
