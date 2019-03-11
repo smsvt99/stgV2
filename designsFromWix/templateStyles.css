@@ -103,7 +103,7 @@
     flex-direction: column;
 }
 #standard_content_left{
-    width: 60%;
+    width: 75%;
 }
 #standard_content_right{
     align-content: flex-end;
